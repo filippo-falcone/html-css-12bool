@@ -1,7 +1,3 @@
-body {
-    font-size: 12px;
-}
-
 .container {
     padding-bottom: 0.5rem;
 }
@@ -11,11 +7,16 @@ body {
 }
 
 .box {
-    padding: 0.5rem;
+    min-height: 48px;
     background-color: #006cfa;
     border: 1px solid #ffffff;
+    line-height: 50px;
     text-align: center;
     color: #ffffff;
+}
+
+.box .row {
+    padding: 1rem;
 }
 
 .box .box {
