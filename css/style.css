@@ -1,1 +1,24 @@
-@import url(12bool.css);
+body {
+    font-size: 12px;
+}
+
+.container {
+    padding-bottom: 0.5rem;
+}
+
+.container>h2 {
+    margin-bottom: 0.25rem;
+}
+
+.box {
+    padding: 0.5rem;
+    background-color: #006cfa;
+    border: 1px solid #ffffff;
+    text-align: center;
+    color: #ffffff;
+}
+
+.box .box {
+    background-color: #00e165;
+    border: 1px solid #006cfa;
+}
