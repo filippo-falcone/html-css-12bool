@@ -9,8 +9,12 @@
 
 /* #region GENERAL */
 .container {
-    max-width: 700px;
+    max-width: 768px;
     margin: 0 auto;
+}
+
+.link {
+    margin: 14rem 2rem 0;
 }
 
 .row {
