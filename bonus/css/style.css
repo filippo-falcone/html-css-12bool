@@ -1,5 +1,19 @@
 @import url(utility.css);
 
+img {
+    max-width: 100%;
+}
+
+.container {
+    text-align: center;
+}
+
+.link,
+.zelda {
+    width: 768px;
+    margin: 0 2rem 0;
+}
+
 .row {
     height: 32px
 }
